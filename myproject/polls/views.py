@@ -180,7 +180,7 @@ def particle_list(request):
     queryset = UserPublication.objects.all().values()
 
         #print(xxx)
-        #print("jjjlkjl")
+        #print("Raja")
     #return Response(serializers.data)
     return HttpResponse("html")
     #return JsonResponse(serializers.data)
